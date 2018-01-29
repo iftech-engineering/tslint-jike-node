@@ -1,8 +1,7 @@
 module.exports = {
-  extends: 'tslint-xo/space',
+  extends: 'tslint-xo',
   rules: {
-    indent: [true, 'spaces', 2],
-    semicolon: [true, 'never'],
+    // off
     radix: false,
     'no-import-side-effect': false,
     'no-non-null-assertion': false,
@@ -11,6 +10,10 @@ module.exports = {
     'type-literal-delimiter': false,
     'no-http-string': false,
     'underscore-consistent-invocation': false,
+
+    // on
+    indent: [true, 'spaces', 2],
+    semicolon: [true, 'never'],
     'comment-format': [true, 'check-space'],
     'variable-name': [true, 'ban-keywords'],
     'object-curly-spacing': [true, 'always'],
@@ -23,6 +26,8 @@ module.exports = {
       },
       'esSpecCompliant': true,
     }],
+
+    // warning
     'no-parameter-reassignment': { severity: 'warning' },
     'no-unnecessary-type-assertion': { severity: 'warning' },
     'promise-function-async': { severity: 'warning' },
