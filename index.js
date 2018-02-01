@@ -14,15 +14,18 @@ module.exports = {
     // on
     indent: [true, 'spaces', 2],
     semicolon: [true, 'never'],
+    'max-line-length': [true, 120],
     'comment-format': [true, 'check-space'],
     'variable-name': [true, 'ban-keywords'],
     'object-curly-spacing': [true, 'always'],
     'trailing-comma': [true, {
-      'multiline': {
-        'objects': 'always',
-        'arrays': 'always',
-        'functions': 'never',
-        'typeLiterals': 'ignore',
+      "multiline": {
+        "objects": "always",
+        "arrays": "always",
+        "imports": "always",
+        "exports": "always",
+        "functions": "always",
+        "typeLiterals": "never",
       },
       'esSpecCompliant': true,
     }],

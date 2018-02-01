@@ -1,6 +1,6 @@
 {
   "name": "tslint-jike-node",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "TSLint config for Jike Node.js",
   "license": "MIT",
   "repository": "tslint-jike-node",
