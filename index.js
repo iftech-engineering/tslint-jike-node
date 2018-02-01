@@ -14,7 +14,7 @@ module.exports = {
     // on
     indent: [true, 'spaces', 2],
     semicolon: [true, 'never'],
-    'max-line-length': [true, 120],
+    'max-line-length': [true, 100],
     'comment-format': [true, 'check-space'],
     'variable-name': [true, 'ban-keywords'],
     'object-curly-spacing': [true, 'always'],
