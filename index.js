@@ -10,6 +10,7 @@ module.exports = {
     'type-literal-delimiter': false,
     'no-http-string': false,
     'underscore-consistent-invocation': false,
+    'await-promise': false,
 
     // on
     indent: [true, 'spaces', 2],
@@ -34,7 +35,6 @@ module.exports = {
     'no-parameter-reassignment': { severity: 'warning' },
     'no-unnecessary-type-assertion': { severity: 'warning' },
     'promise-function-async': { severity: 'warning' },
-    'await-promise': { severity: 'warning' },
     'restrict-plus-operands': { severity: 'warning' },
     'no-require-imports': { severity: 'warning' },
     'no-redundant-jsdoc': { severity: 'warning' },
