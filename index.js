@@ -12,6 +12,7 @@ module.exports = {
     'underscore-consistent-invocation': false,
     'await-promise': false,
     'no-redundant-jsdoc': false,
+    'interface-over-type-literal': false,
 
     // on
     indent: [true, 'spaces', 2],
