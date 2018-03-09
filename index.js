@@ -11,6 +11,8 @@ module.exports = {
     'no-http-string': false,
     'underscore-consistent-invocation': false,
     'await-promise': false,
+    'no-redundant-jsdoc': false,
+    'interface-over-type-literal': false,
 
     // on
     indent: [true, 'spaces', 2],
@@ -37,7 +39,6 @@ module.exports = {
     'promise-function-async': { severity: 'warning' },
     'restrict-plus-operands': { severity: 'warning' },
     'no-require-imports': { severity: 'warning' },
-    'no-redundant-jsdoc': { severity: 'warning' },
     'early-exit': { severity: 'warning' },
     'promise-must-complete': { severity: 'warning' },
   },
