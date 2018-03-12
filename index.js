@@ -22,15 +22,22 @@ module.exports = {
     'variable-name': [true, 'ban-keywords'],
     'object-curly-spacing': [true, 'always'],
     'trailing-comma': [true, {
-      "multiline": {
-        "objects": "always",
-        "arrays": "always",
-        "imports": "always",
-        "exports": "always",
-        "functions": "always",
-        "typeLiterals": "never",
+      'multiline': {
+        'objects': 'always',
+        'arrays': 'always',
+        'imports': 'always',
+        'exports': 'always',
+        'functions': 'always',
+        'typeLiterals': 'never',
       },
       'esSpecCompliant': true,
+    }],
+    'space-before-function-paren': [true, {
+      'anonymous': 'never',
+      'asyncArrow': 'always',
+      'named': 'never',
+      'constructor': 'never',
+      'method': 'never',
     }],
 
     // warning
