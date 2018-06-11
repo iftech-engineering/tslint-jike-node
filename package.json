@@ -1,9 +1,9 @@
 {
   "name": "tslint-jike-node",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "TSLint config for Jike Node.js",
   "license": "MIT",
-  "repository": "tslint-jike-node",
+  "repository": "https://github.com/jike-engineering/tslint-jike-node.git",
   "author": {
     "name": "Jike",
     "email": "admin@okjike.com",
@@ -21,11 +21,11 @@
     "tslint-config"
   ],
   "dependencies": {
-    "tslint-xo": "0.7.2"
+    "tslint-xo": "0.8.0"
   },
   "devDependencies": {
     "tslint": "5.10.0",
-    "typescript": "2.8.3"
+    "typescript": "2.9.1"
   },
   "peerDependencies": {
     "tslint": ">=5.10.0"
